@@ -1,0 +1,4 @@
+^cran-comments\.md$
+^CRAN_SUBMISSION\.md$
+^\.Rcheck$
+^\.github$

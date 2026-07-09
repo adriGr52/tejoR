@@ -1,0 +1,23 @@
+Package: tejoR
+Title: Armonizacion Estadistica de Series Territoriales Entre Mallas
+    Geograficas
+Version: 0.2.1
+Authors@R: person("Luz Adriana", "Gutierrez Rodriguez",
+    role = c("aut", "cre"), email = "adrig63@gmail.com")
+Description: Construye, valida, sella y aplica matrices de ponderadores
+    ('crosswalks') para trasladar series estadisticas entre mallas
+    geograficas que cambian, como la transicion de Unidades de Planeamiento
+    Zonal (UPZ) a Unidades de Planeamiento Local (UPL) en Bogota
+    (Decreto 555 de 2021). Implementa la especificacion 'tejo-crosswalk/0.2'
+    compartida con el paquete de Python 'tejo': integridad por 'sha256',
+    pesos no negativos que suman uno por unidad fuente, metodo dasimetrico
+    con ancilar vectorial via 'sf', tasas que nunca se interpolan
+    directamente y valores faltantes que se propagan en lugar de imputarse.
+License: MIT + file LICENSE
+URL: https://github.com/adriGr52/tejoR
+BugReports: https://github.com/adriGr52/tejoR/issues
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: sf, jsonlite, digest, stats, utils
+Suggests: testthat
+RoxygenNote: 7.3.1

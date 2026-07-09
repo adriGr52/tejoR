@@ -1,0 +1,34 @@
+{
+  "metodo": "dasymetric",
+  "crs": "EPSG:3116",
+  "n_fuentes": 4,
+  "n_destinos": 3,
+  "fuentes_sin_cobertura": [],
+  "cobertura_area_min": 1.0,
+  "cobertura_area_media": 1.0,
+  "renormalize": true,
+  "asignacion_ancilar": "areal",
+  "creado_utc": "2026-07-04T23:03:35.650951+00:00",
+  "advertencias": [],
+  "chequeo_interop": {
+    "S0_T0": 0.10476190476190476
+  },
+  "spec_version": "tejo-crosswalk/0.2",
+  "source_id": "sid",
+  "target_id": "tid",
+  "columnas": [
+    "sid",
+    "tid",
+    "weight",
+    "w_area",
+    "area_interseccion",
+    "cobertura_area",
+    "fallback_area",
+    "masa_int"
+  ],
+  "sha256_tabla": "86e0e3a8ad4bf2415a25c95ac9d799fc9af4baeaca45921a819c16d2a1d85128",
+  "software": {
+    "tejo": "0.2.0"
+  },
+  "sellado_utc": "2026-07-04T23:03:35.658998+00:00"
+}
