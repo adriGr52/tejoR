@@ -1,0 +1,5 @@
+# Artefactos con sello sha256: git NUNCA debe traducir el fin de linea.
+# En Windows, core.autocrlf=true convertia estos CSV de LF a CRLF en el
+# checkout, cambiando sus bytes y rompiendo el sello sha256 (integridad).
+tests/testthat/fixtures/*.csv  -text
+tests/testthat/fixtures/*.json -text
