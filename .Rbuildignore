@@ -2,3 +2,5 @@
 ^CRAN_SUBMISSION\.md$
 ^\.Rcheck$
 ^\.github$
+^\.gitattributes$
+^ESTADO_SUMISION\.md$
