@@ -2,9 +2,9 @@ citHeader("Para citar 'tejoR' en publicaciones use:")
 
 bibentry(
   bibtype = "Manual",
-  title   = "tejoR: Armonizacion Estadistica de Series Territoriales Entre Mallas Geograficas",
+  title   = "tejoR: Statistical Harmonization of Territorial Series Across Changing Geographies",
   author  = person("Luz Adriana", "Gutierrez Rodriguez"),
   year    = "2026",
-  note    = "R package version 0.2.1",
+  note    = "R package version 0.2.2",
   url     = "https://github.com/adriGr52/tejoR"
 )
